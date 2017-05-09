@@ -2,6 +2,7 @@
 // Useful when gernerating random colors
 
 function hexcodeGenerator (num) {
+    // num: number of needed hexcode
     var hexcodeArray = [];
     for (var i = 0; i < num; i++) {
 	var hexcode = ["#"];
